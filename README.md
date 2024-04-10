@@ -25,3 +25,7 @@ Step5: The cleaned dataset was stored in a separate S3 bucket and a crawler was 
 Step 6: A new S3 bucket was created for the Analytics data layer. The data from both the sources (i.e transformed json files and transformed csv files respectively) would be joined and stored in this bucket using Glue Job. 
 
 Step 7: The analytic S3 bucket was then connected to AWS Quicksight BI tool for further Data Analysis.
+
+## Architecture Diagram
+<img src="architecture.jpeg">
+
